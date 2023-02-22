@@ -1,0 +1,28 @@
+IP주소는 집주소,
+포트는 호수라고 생각하면 된다.
+
+Hostname : 127.0.0.1     Port : 3306은
+※127.0.0.1에 위치한 아파트 3306호라고 생각하면 편하다.
+
+관계형 데이터베이스에서 Row 한 줄은 record(레코드)이다.
+
+
+Workbench 내에서 좌측 하단 "Schemas" 안에 Tables, Views, Stored 등 여러 개가 있다.
+
+
+Tables 내에 요소는 Columns, Indexes, Foreign Keys, Triggers 있다.
+
+
+SQL 은 sequel(시퀄)이라고 부르거나 ess cue el(에스큐엘)이라고 발음한다.
+※ 시퀄이라고 더 많이 부른다.
+
+
+# MariaDB Server 데이터 타입
+ colunmn 기준 저장
+
+-Char는 세로로 20칸 데이터 저장
+만약 "ABC"가 입력이라면 3칸을 채우고 나서 남은 17칸 빈 공간으로 저장
+
+-Decimal
+정확한 소수점이 필요한 경우에 사용하는 실수 데이터 타입
+※Decial(20,3)이라면 뒤에서 3번째 자리
